@@ -33,7 +33,7 @@ defmodule PhoenixPubSubKafka.Mixfile do
   defp deps do
     [
       {:phoenix_pubsub, "~> 1.0"},
-      {:kafka_ex, github: "akuriya/kafka_ex", ref: "0585ac0f38e1a65b3f9fa1c10dbbdd6e67ade9d1"},
+      {:kafka_ex, github: "akuriya/kafka_ex", ref: "6e022d39bfbafdf84a1e1a5bf45204d573cf0f97"},
       {:credo, "~> 0.8.10", only: :dev},
       {:dialyxir, "~> 0.5.1", only: :dev},
       {:excoveralls, "~> 0.8", only: :test},
